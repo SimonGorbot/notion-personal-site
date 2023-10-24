@@ -51,6 +51,9 @@ export const FooterImpl: React.FC = () => {
         )}
       </div>
 
+      {/* added built with to footer to make up for removing github corner */}
+      <div className={styles.copyright}>built with <a target='_blank' rel='noopener noreferrer' href={`https://github.com/transitive-bullshit/nextjs-notion-starter-kit`}><u>nextjs-notion-starter-kit</u></a></div>
+
       {/* <div className={styles.social}>
         {config.twitter && (
           <a
